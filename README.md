@@ -12,7 +12,11 @@ Transform adv perturbation algorithm to process audio and find best existing alg
 
 Stage 3:
 
-Build physical perturbator with real time audio distortion.  
+Build physical perturbator with real time audio distortion. 
+
+Stage 4 (universal):
+
+Test algorithm near Alexa and other audio processors, tune + look at universal algorithim solutions to achieve this.
 
 # Resources 
 For **editing** audio:
