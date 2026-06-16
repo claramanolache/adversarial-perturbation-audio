@@ -1,6 +1,18 @@
 # adversarial-perturbation-audio
-Independent project, end of junior year to senior year, continued from COSMOS 
+Independent project, end of junior year to senior year, continued from COSMOS.
 
+Stage 1: 
+
+Understand how audio files can be transformed + gathered. Practice transforming audio into different data types, find 
+the  one AI prefers. Run these audios through Audio Processor. Find the gradient, or train own.
+
+Stage 2: 
+
+Transform adv perturbation algorithm to process audio and find best existing algorithims to transform. 
+
+Stage 3:
+
+Build physical perturbator with real time audio distortion.  
 
 # Resources 
 For **editing** audio:
@@ -19,3 +31,8 @@ https://github.com/xbeat/Machine-Learning/blob/main/Deep-Learning/CNN-and-Comput
 **Downloading** Audio from:
 https://mp3juice.sc/
 
+# Papers 
+
+original: https://arxiv.org/abs/1312.6199
+
+drawing next steps from: https://math.mit.edu/research/highschool/primes/materials/2020/Mendes-Hogan.pdf 
