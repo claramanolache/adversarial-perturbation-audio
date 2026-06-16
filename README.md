@@ -40,3 +40,6 @@ https://mp3juice.sc/
 original: https://arxiv.org/abs/1312.6199
 
 drawing next steps from: https://math.mit.edu/research/highschool/primes/materials/2020/Mendes-Hogan.pdf 
+
+Universal audio pert: https://arxiv.org/pdf/1908.03173
+
