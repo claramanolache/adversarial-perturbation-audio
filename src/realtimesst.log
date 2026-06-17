@@ -1,0 +1,260 @@
+2026-06-16 14:39:12.525 - RealTimeSTT: root - INFO - Starting RealTimeSTT
+2026-06-16 14:39:12.553 - RealTimeSTT: root - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2026-06-16 14:39:12.568 - RealTimeSTT: root - INFO - Initializing WebRTC voice with Sensitivity 3
+2026-06-16 14:39:12.568 - RealTimeSTT: root - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2026-06-16 14:39:16.643 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg6
+2026-06-16 14:39:16.773 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg6 extension.
+Traceback (most recent call last):
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torch/_ops.py", line 1032, in load_library
+    ctypes.CDLL(path)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ctypes/__init__.py", line 366, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: dlopen(/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg6.so, 0x0006): Library not loaded: @rpath/libavutil.58.dylib
+  Referenced from: <BAD74526-9081-3418-B90A-AC970B145BF3> /Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg6.so
+  Reason: tried: '/usr/local/lib/libavutil.58.dylib' (no such file), '/usr/lib/libavutil.58.dylib' (no such file, not in dyld cache)
+2026-06-16 14:39:16.778 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg5
+2026-06-16 14:39:16.912 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg5 extension.
+Traceback (most recent call last):
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torch/_ops.py", line 1032, in load_library
+    ctypes.CDLL(path)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ctypes/__init__.py", line 366, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: dlopen(/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg5.so, 0x0006): Library not loaded: @rpath/libavutil.57.dylib
+  Referenced from: <671A0D0D-139F-3576-ABC0-4FB9CF3C3292> /Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg5.so
+  Reason: tried: '/usr/local/lib/libavutil.57.dylib' (no such file), '/usr/lib/libavutil.57.dylib' (no such file, not in dyld cache)
+2026-06-16 14:39:16.912 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg4
+2026-06-16 14:39:17.038 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg4 extension.
+Traceback (most recent call last):
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torch/_ops.py", line 1032, in load_library
+    ctypes.CDLL(path)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ctypes/__init__.py", line 366, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: dlopen(/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg4.so, 0x0006): Library not loaded: @rpath/libavutil.56.dylib
+  Referenced from: <D280808A-CCD9-399D-A66F-C62550FE7E86> /Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg4.so
+  Reason: tried: '/usr/local/lib/libavutil.56.dylib' (no such file), '/usr/lib/libavutil.56.dylib' (no such file, not in dyld cache)
+2026-06-16 14:39:17.038 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg
+2026-06-16 14:39:17.038 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg extension.
+Traceback (most recent call last):
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 106, in _find_versionsed_ffmpeg_extension
+    raise RuntimeError(f"FFmpeg{version} extension is not available.")
+RuntimeError: FFmpeg extension is not available.
+2026-06-16 14:39:17.217 - RealTimeSTT: root - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2026-06-16 14:39:17.217 - RealTimeSTT: root - DEBUG - Starting realtime worker
+2026-06-16 14:39:17.217 - RealTimeSTT: root - DEBUG - Waiting for main transcription model to start
+2026-06-16 14:39:22.435 - RealTimeSTT: root - DEBUG - Main transcription model ready
+2026-06-16 14:39:22.437 - RealTimeSTT: root - DEBUG - RealtimeSTT initialization completed successfully
+2026-06-16 14:39:22.437 - RealTimeSTT: root - INFO - Setting listen time
+2026-06-16 14:39:22.437 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2026-06-16 14:39:22.437 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2026-06-16 14:39:27.779 - RealTimeSTT: root - INFO - voice activity detected
+2026-06-16 14:39:27.779 - RealTimeSTT: root - INFO - recording started
+2026-06-16 14:39:27.779 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2026-06-16 14:39:27.780 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2026-06-16 14:39:28.971 - RealTimeSTT: root - INFO - recording stopped
+2026-06-16 14:39:28.971 - RealTimeSTT: root - INFO - State changed from 'recording' to 'listening'
+2026-06-16 14:39:28.982 - RealTimeSTT: root - INFO - State changed from 'listening' to 'inactive'
+2026-06-16 14:39:29.054 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2026-06-16 14:39:29.068 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2026-06-16 14:39:29.085 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2026-06-16 14:39:29.101 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2026-06-16 14:39:29.592 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.52 seconds
+2026-06-16 14:39:29.592 - RealTimeSTT: root - DEBUG - Finishing recording thread
+2026-06-16 14:39:29.596 - RealTimeSTT: root - DEBUG - Terminating reader process
+2026-06-16 14:39:29.980 - RealTimeSTT: root - DEBUG - Terminating transcription process
+2026-06-16 14:39:30.094 - RealTimeSTT: root - DEBUG - Finishing realtime thread
+2026-06-16 14:39:36.664 - RealTimeSTT: root - INFO - Starting RealTimeSTT
+2026-06-16 14:39:36.672 - RealTimeSTT: root - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2026-06-16 14:39:36.676 - RealTimeSTT: root - INFO - Initializing WebRTC voice with Sensitivity 3
+2026-06-16 14:39:36.677 - RealTimeSTT: root - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2026-06-16 14:39:36.895 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg6
+2026-06-16 14:39:36.895 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg6 extension.
+Traceback (most recent call last):
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torch/_ops.py", line 1032, in load_library
+    ctypes.CDLL(path)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ctypes/__init__.py", line 366, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: dlopen(/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg6.so, 0x0006): Library not loaded: @rpath/libavutil.58.dylib
+  Referenced from: <BAD74526-9081-3418-B90A-AC970B145BF3> /Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg6.so
+  Reason: tried: '/usr/local/lib/libavutil.58.dylib' (no such file), '/usr/lib/libavutil.58.dylib' (no such file, not in dyld cache)
+2026-06-16 14:39:36.902 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg5
+2026-06-16 14:39:36.902 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg5 extension.
+Traceback (most recent call last):
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torch/_ops.py", line 1032, in load_library
+    ctypes.CDLL(path)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ctypes/__init__.py", line 366, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: dlopen(/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg5.so, 0x0006): Library not loaded: @rpath/libavutil.57.dylib
+  Referenced from: <671A0D0D-139F-3576-ABC0-4FB9CF3C3292> /Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg5.so
+  Reason: tried: '/usr/local/lib/libavutil.57.dylib' (no such file), '/usr/lib/libavutil.57.dylib' (no such file, not in dyld cache)
+2026-06-16 14:39:36.902 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg4
+2026-06-16 14:39:36.902 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg4 extension.
+Traceback (most recent call last):
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torch/_ops.py", line 1032, in load_library
+    ctypes.CDLL(path)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ctypes/__init__.py", line 366, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: dlopen(/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg4.so, 0x0006): Library not loaded: @rpath/libavutil.56.dylib
+  Referenced from: <D280808A-CCD9-399D-A66F-C62550FE7E86> /Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg4.so
+  Reason: tried: '/usr/local/lib/libavutil.56.dylib' (no such file), '/usr/lib/libavutil.56.dylib' (no such file, not in dyld cache)
+2026-06-16 14:39:36.902 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg
+2026-06-16 14:39:36.903 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg extension.
+Traceback (most recent call last):
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 106, in _find_versionsed_ffmpeg_extension
+    raise RuntimeError(f"FFmpeg{version} extension is not available.")
+RuntimeError: FFmpeg extension is not available.
+2026-06-16 14:39:36.951 - RealTimeSTT: root - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2026-06-16 14:39:36.951 - RealTimeSTT: root - DEBUG - Starting realtime worker
+2026-06-16 14:39:36.951 - RealTimeSTT: root - DEBUG - Waiting for main transcription model to start
+2026-06-16 14:39:40.698 - RealTimeSTT: root - DEBUG - Main transcription model ready
+2026-06-16 14:39:40.698 - RealTimeSTT: root - DEBUG - RealtimeSTT initialization completed successfully
+2026-06-16 14:39:40.698 - RealTimeSTT: root - INFO - Setting listen time
+2026-06-16 14:39:40.698 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2026-06-16 14:39:40.698 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2026-06-16 14:39:42.577 - RealTimeSTT: root - INFO - voice activity detected
+2026-06-16 14:39:42.577 - RealTimeSTT: root - INFO - recording started
+2026-06-16 14:39:42.577 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2026-06-16 14:39:42.577 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2026-06-16 14:39:43.737 - RealTimeSTT: root - INFO - recording stopped
+2026-06-16 14:39:43.737 - RealTimeSTT: root - INFO - State changed from 'recording' to 'listening'
+2026-06-16 14:39:43.737 - RealTimeSTT: root - INFO - State changed from 'listening' to 'inactive'
+2026-06-16 14:39:43.838 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2026-06-16 14:39:43.841 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2026-06-16 14:39:43.866 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2026-06-16 14:39:43.867 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2026-06-16 14:39:44.439 - RealTimeSTT: root - INFO - voice activity detected
+2026-06-16 14:39:44.439 - RealTimeSTT: root - INFO - recording started
+2026-06-16 14:39:44.439 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'recording'
+2026-06-16 14:39:45.058 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2026-06-16 14:39:45.060 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 1.22 seconds
+2026-06-16 14:39:45.060 - RealTimeSTT: root - DEBUG - Finishing recording thread
+2026-06-16 14:39:45.062 - RealTimeSTT: root - DEBUG - Terminating reader process
+2026-06-16 14:39:45.509 - RealTimeSTT: root - DEBUG - Terminating transcription process
+2026-06-16 14:39:45.509 - RealTimeSTT: root - DEBUG - Finishing realtime thread
+2026-06-16 14:40:11.164 - RealTimeSTT: root - INFO - Starting RealTimeSTT
+2026-06-16 14:40:11.170 - RealTimeSTT: root - INFO - Initializing audio recording (creating pyAudio input stream, sample rate: 16000 buffer size: 512
+2026-06-16 14:40:11.174 - RealTimeSTT: root - INFO - Initializing WebRTC voice with Sensitivity 3
+2026-06-16 14:40:11.174 - RealTimeSTT: root - DEBUG - WebRTC VAD voice activity detection engine initialized successfully
+2026-06-16 14:40:11.422 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg6
+2026-06-16 14:40:11.422 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg6 extension.
+Traceback (most recent call last):
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torch/_ops.py", line 1032, in load_library
+    ctypes.CDLL(path)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ctypes/__init__.py", line 366, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: dlopen(/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg6.so, 0x0006): Library not loaded: @rpath/libavutil.58.dylib
+  Referenced from: <BAD74526-9081-3418-B90A-AC970B145BF3> /Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg6.so
+  Reason: tried: '/usr/local/lib/libavutil.58.dylib' (no such file), '/usr/lib/libavutil.58.dylib' (no such file, not in dyld cache)
+2026-06-16 14:40:11.428 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg5
+2026-06-16 14:40:11.429 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg5 extension.
+Traceback (most recent call last):
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torch/_ops.py", line 1032, in load_library
+    ctypes.CDLL(path)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ctypes/__init__.py", line 366, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: dlopen(/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg5.so, 0x0006): Library not loaded: @rpath/libavutil.57.dylib
+  Referenced from: <671A0D0D-139F-3576-ABC0-4FB9CF3C3292> /Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg5.so
+  Reason: tried: '/usr/local/lib/libavutil.57.dylib' (no such file), '/usr/lib/libavutil.57.dylib' (no such file, not in dyld cache)
+2026-06-16 14:40:11.429 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg4
+2026-06-16 14:40:11.429 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg4 extension.
+Traceback (most recent call last):
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 108, in _find_versionsed_ffmpeg_extension
+    _load_lib(lib)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 94, in _load_lib
+    torch.ops.load_library(path)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torch/_ops.py", line 1032, in load_library
+    ctypes.CDLL(path)
+  File "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/ctypes/__init__.py", line 366, in __init__
+    self._handle = _dlopen(self._name, mode)
+OSError: dlopen(/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg4.so, 0x0006): Library not loaded: @rpath/libavutil.56.dylib
+  Referenced from: <D280808A-CCD9-399D-A66F-C62550FE7E86> /Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/lib/libtorio_ffmpeg4.so
+  Reason: tried: '/usr/local/lib/libavutil.56.dylib' (no such file), '/usr/lib/libavutil.56.dylib' (no such file, not in dyld cache)
+2026-06-16 14:40:11.429 - RealTimeSTT: torio._extension.utils - DEBUG - Loading FFmpeg
+2026-06-16 14:40:11.429 - RealTimeSTT: torio._extension.utils - DEBUG - Failed to load FFmpeg extension.
+Traceback (most recent call last):
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 116, in _find_ffmpeg_extension
+    ext = _find_versionsed_ffmpeg_extension(ffmpeg_ver)
+  File "/Users/claramanolache/Library/Python/3.9/lib/python/site-packages/torio/_extension/utils.py", line 106, in _find_versionsed_ffmpeg_extension
+    raise RuntimeError(f"FFmpeg{version} extension is not available.")
+RuntimeError: FFmpeg extension is not available.
+2026-06-16 14:40:11.668 - RealTimeSTT: root - DEBUG - Silero VAD voice activity detection engine initialized successfully
+2026-06-16 14:40:11.668 - RealTimeSTT: root - DEBUG - Starting realtime worker
+2026-06-16 14:40:11.668 - RealTimeSTT: root - DEBUG - Waiting for main transcription model to start
+2026-06-16 14:40:14.401 - RealTimeSTT: root - DEBUG - Main transcription model ready
+2026-06-16 14:40:14.402 - RealTimeSTT: root - DEBUG - RealtimeSTT initialization completed successfully
+2026-06-16 14:40:14.402 - RealTimeSTT: root - INFO - Setting listen time
+2026-06-16 14:40:14.402 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'listening'
+2026-06-16 14:40:14.406 - RealTimeSTT: root - DEBUG - Waiting for recording start
+2026-06-16 14:40:16.636 - RealTimeSTT: root - INFO - voice activity detected
+2026-06-16 14:40:16.636 - RealTimeSTT: root - INFO - recording started
+2026-06-16 14:40:16.636 - RealTimeSTT: root - INFO - State changed from 'listening' to 'recording'
+2026-06-16 14:40:16.645 - RealTimeSTT: root - DEBUG - Waiting for recording stop
+2026-06-16 14:40:18.163 - RealTimeSTT: root - INFO - recording stopped
+2026-06-16 14:40:18.163 - RealTimeSTT: root - INFO - State changed from 'recording' to 'listening'
+2026-06-16 14:40:18.163 - RealTimeSTT: root - INFO - State changed from 'listening' to 'inactive'
+2026-06-16 14:40:18.253 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'transcribing'
+2026-06-16 14:40:18.253 - RealTimeSTT: root - DEBUG - Adding transcription request, no early transcription started
+2026-06-16 14:40:18.268 - RealTimeSTT: root - DEBUG - Receive from parent_transcription_pipe after sendiung transcription request, transcribe_count: 1
+2026-06-16 14:40:18.285 - RealTimeSTT: root - INFO - State changed from 'transcribing' to 'inactive'
+2026-06-16 14:40:18.733 - RealTimeSTT: root - INFO - voice activity detected
+2026-06-16 14:40:18.733 - RealTimeSTT: root - INFO - recording started
+2026-06-16 14:40:18.733 - RealTimeSTT: root - INFO - State changed from 'inactive' to 'recording'
+2026-06-16 14:40:18.831 - RealTimeSTT: root - INFO - State changed from 'recording' to 'inactive'
+2026-06-16 14:40:18.837 - RealTimeSTT: root - DEBUG - Model tiny completed transcription in 0.58 seconds
+2026-06-16 14:40:18.838 - RealTimeSTT: root - DEBUG - Finishing recording thread
+2026-06-16 14:40:18.838 - RealTimeSTT: root - DEBUG - Terminating reader process
+2026-06-16 14:40:19.214 - RealTimeSTT: root - DEBUG - Terminating transcription process
+2026-06-16 14:40:19.215 - RealTimeSTT: root - DEBUG - Finishing realtime thread
